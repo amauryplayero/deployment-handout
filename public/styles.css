@@ -1,8 +1,43 @@
 h1 {
     color: rgb(87, 11, 11);
-
+   align-items: center;
+  
+}
+#h1Placement{
+    display: flex;
+    justify-content: center;
 }
 
 /* body {
 
 } */
+
+#formDiv {
+    display:block;
+    width: 30vw;
+    /* height: 30vh; */
+    margin-left: 40px;
+}
+#accept{
+    color: white;
+    border: none;
+    background-color: green;
+    width:30vw;
+    height: 20vh;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+#accept:hover {
+    background-color: rgb(12, 72, 0);
+
+}
+#flex-content {
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+#img {
+    width: 30vw;
+    padding-left: 20vw;
+}

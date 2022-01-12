@@ -9,6 +9,8 @@ app.get('/', function(req,res){
 
 app.use(express.static('public'))
 
+app.use(express.static('public'))
+
 const port = process.env.PORT || 4006
 
 app.listen(port, ()=> {
